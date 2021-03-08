@@ -23,4 +23,17 @@ public class Card
     {
         this.question = question.toCharArray();
     }
+
+    public String getQuestion()
+    {
+        String ret = this.question.toString();
+        return ret;
+    }
+
+    public String getAnswer()
+    {
+        String ret = this.answer.toString();
+        return ret;
+    }
+
 }
